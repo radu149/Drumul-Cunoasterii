@@ -1,2 +1,2 @@
 # Drumul-Cunoasterii
-Aceasta pagina contine toate filele ce au fost introduse in softul Unity (sunt si elemente exterimentale care au fost importate pentru a avea un mod de testare pana la crearea modelelor noastre).
+Aceasta pagina contine tot codul ce a fost introdus in softul Unity si ce va fi introdus in continuare (exista si cod experimental de la care am plecat sau care poate fi utilizat ca back-up).
