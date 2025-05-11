@@ -167,7 +167,6 @@ public class OptionsScript : MonoBehaviour
     private void DeleteSave()
     {
         PlayerPrefs.DeleteAll();
-        Debug.Log("Save data cleared.");
     }
 
     private void QuitGame()
@@ -229,43 +228,36 @@ public class OptionsScript : MonoBehaviour
     private void OnButtonPressed1()
     {
         Save();
-        Debug.Log("Button was pressed and is visible!");
     }
 
         private void OnButtonPressed2()
     {
         LoadGame();
-        Debug.Log("Button was pressed and is visible!");
     }
 
         private void OnButtonPressed3()
     {
         DeleteSave();
-        Debug.Log("Button was pressed and is visible!");
     }
 
         private void OnButtonPressed4()
     {
         ShowStats();
-        Debug.Log("Button was pressed and is visible!");
     }
 
         private void OnButtonPressed5()
     {
         QuitGame();
-        Debug.Log("Button was pressed and is visible!");
     }
 
         private void OnButtonPressed6()
     {
         QuitScenario();
-        Debug.Log("Button was pressed and is visible!");
     }
 
         private void OnButtonPressed7()
     {
         HideStats();
-        Debug.Log("Button was pressed and is visible!");
     }
 
 }
