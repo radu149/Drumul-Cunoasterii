@@ -13,7 +13,7 @@ public class RobotController : MonoBehaviour
     private bool isExecuting = false;
 
     private List<string> outputLines = new List<string>();
-    private const int maxOutputLines = 12; // Adjust this depending on your UI space
+    private const int maxOutputLines = 12; 
 
     void Update()
     {
@@ -44,7 +44,7 @@ public class RobotController : MonoBehaviour
         if (string.IsNullOrWhiteSpace(input))
             return;
 
-        outputLines.Clear(); // Clear previous output
+        outputLines.Clear(); 
         UpdateOutputText();
 
         ParseCommands(input);
@@ -201,7 +201,7 @@ public class RobotController : MonoBehaviour
         {
             outputLines.Add(message);
             if (outputLines.Count > maxOutputLines)
-                outputLines.RemoveAt(0); // Remove the oldest line
+                outputLines.RemoveAt(0); 
 
             UpdateOutputText();
         }
